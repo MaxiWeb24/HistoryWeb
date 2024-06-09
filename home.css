@@ -1,0 +1,75 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+img{
+    width: 150px;
+}
+h1{
+    font-size: 35px;
+    color: rgb(6, 102, 70);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-size: 25px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.caja2 h1{
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(224, 112, 112);
+}
+.main2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3%;
+}
+.home1{
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home1 img{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    transition: all 300ms;
+    position: relative;
+}
+.home1 img:hover{
+    transform: scale(1.15);
+}
+.home1 p{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}

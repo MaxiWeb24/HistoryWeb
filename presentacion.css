@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+img{
+    width: 150px;
+}
+h1{
+    font-size: 35px;
+    color: rgb(162, 180, 118);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-size: 25px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.caja1 img{
+    width: 50%;
+    border-radius: 4%;
+    float: left;
+}
+.caja1 h1{
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    color: firebrick;
+}
+.caja1 p{
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+}
+.link{
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+}
